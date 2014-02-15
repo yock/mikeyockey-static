@@ -21,14 +21,35 @@ module.exports = function(grunt) {
 
       sass: {
         files: 'scss/**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass'],
+        options: {
+          livereload: true
+        },
+      },
+
+      html: {
+        files: '**/*.html',
+        options: {
+          livereload: true
+        }
+      }
+    },
+
+    connect: {
+      server: {
+        options: {
+          port: 9000,
+          base: '.'
+        }
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   grunt.registerTask('build', ['sass']);
   grunt.registerTask('default', ['build','watch']);
+  grunt.registerTask('server', ['build', 'connect', 'watch']);
 }
