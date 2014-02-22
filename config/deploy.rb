@@ -1,5 +1,6 @@
 require 'mina/bundler'
 require 'mina/git'
+require 'mina/rvm'
 
 # Basic settings:
 #   domain       - The hostname to SSH to.
@@ -29,6 +30,7 @@ end
 task :deps do
   queue "bundle install"
   queue "npm install"
+  queue "bower install"
 end
 
 task :compile do
@@ -45,7 +47,7 @@ task :deploy => :environment do
     invoke :compile
 
     to :launch do
-      queue "sudo service nginx restart"
+      queue "sudo /home/myockey/util/restart-nginx.sh"
     end
   end
 end
