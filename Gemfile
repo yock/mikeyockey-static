@@ -1,3 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'mina'
+gem 'foundation', '~> 1.0.0'
+gem 'mina', group: :development
