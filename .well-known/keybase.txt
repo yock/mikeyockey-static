@@ -1,0 +1,66 @@
+==================================================================
+https://keybase.io/yock
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mikeyockey.com
+  * I am yock (https://keybase.io/yock) on keybase.
+  * I have a public key with fingerprint CB84 3CAB D0B9 1217 4EED  43DA 8659 904E 9EA9 E423
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "cb843cabd0b912174eed43da8659904e9ea9e423",
+            "host": "keybase.io",
+            "key_id": "8659904e9ea9e423",
+            "uid": "893ea1151faa1bd49758978c03a10400",
+            "username": "yock"
+        },
+        "service": {
+            "hostname": "mikeyockey.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395952537,
+    "expire_in": 157680000,
+    "prev": "b9a31ee6e6bf986b3e67c0f0c1a12fc8588eed0802d5c8006bd06aec2117f67b",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.1
+Comment: https://keybase.io/crypto
+
+yMHoAnicbZFfSBRrGMbX0lBREdeIwC78wi5sXWZ2/n2zXWywHSGo7T+6JmzfzHyr
+47Yz2+y4ubnbORBRudVR+2OFWWB6UQa7FwWBiFYYJHZTRHZxqESlkDpoQVmS35jd
+NTfDPO/veR7mfR8XrrblZ42XZp4sDk3fyBob/tRs28emrrYCSVfiwN0KQnj5FVS1
+BmxEDFUzgRvIEmQZGUkKJYm0ixZYjBWWURDkOVGkWCxiJGLWxQAHaNSjloPESCiK
+napONPIRUBWi/oFv/jUQGYxomqODCNGSwooCB0UByhSDaIqlKAuMYkNDYUzouC6H
+QNIBiBJTZaK0LteuTMMq6SMEjjtlPUycEUM3dVk/TGaNphlxW1YzHrHYo1gKrKQE
+JFVTyF8TQwwbUVXXgJsmpGyqVizNiJzIuThGcADcElENHFAtghN4SJHHqsExEimJ
+iKEx5jEvBUXISwzmBZkKUjKNaFdQhhyEZHsUpFwKJxMrT7bKIyy7aFoI8oJE+qP4
+iKYDN2kyUQOJjKoNGjKbDQySD4frs21Z+bY1Oausu9ny84p/XzM2k2s77+wJT8be
+zBbe6v8/lV67/2Jny89Xt+Pj87X/MGPt3t6/emtA0YPgwdCd7d2pvrmns+lt7Z7n
+9kTlrhrfQHt5199wVPdrO6v6nFqN5/Uhn+YtunR/49BAR+XH0IW73//1V3el5aSU
+CLw8V991b7QbwpLx9br/9Ltr/wlq8uSPQaVpcG+H4cvMean+y05faMaZk6oPFBzb
+vaNs3fXMo97Cvg1Dudnz3m8TbcdHFicqHPH5zXWlvrOZgmeOqerpz3Vhz6Z4wg0d
+eV9Brd0/kK4IbZ3cUrWHugmLOkuq35YsOMpPXPF0ljWNJN7b7AfsLyY/LCw2nfoy
+pfScaSteAm6+EhQ=
+=zOMN
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/yock
+
+==================================================================
+
