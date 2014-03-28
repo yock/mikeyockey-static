@@ -4,7 +4,7 @@ https://keybase.io/yock
 
 I hereby claim:
 
-  * I am an admin of http://mikeyockey.com
+  * I am an admin of https://mikeyockey.com
   * I am yock (https://keybase.io/yock) on keybase.
   * I have a public key with fingerprint CB84 3CAB D0B9 1217 4EED  43DA 8659 904E 9EA9 E423
 
@@ -21,15 +21,15 @@ To claim this, I am signing this object:
         },
         "service": {
             "hostname": "mikeyockey.com",
-            "protocol": "http:"
+            "protocol": "https:"
         },
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1395952537,
+    "ctime": 1396022590,
     "expire_in": 157680000,
-    "prev": "b9a31ee6e6bf986b3e67c0f0c1a12fc8588eed0802d5c8006bd06aec2117f67b",
-    "seqno": 7,
+    "prev": "bfd972d0559acfa62a4e431544e4b1750f2833a538aa89a3ac92787f8e0523d1",
+    "seqno": 9,
     "tag": "signature"
 }
 
@@ -39,22 +39,22 @@ with the aforementioned key, yielding the PGP signature:
 Version: Keybase OpenPGP v0.1.1
 Comment: https://keybase.io/crypto
 
-yMHoAnicbZFfSBRrGMbX0lBREdeIwC78wi5sXWZ2/n2zXWywHSGo7T+6JmzfzHyr
-47Yz2+y4ubnbORBRudVR+2OFWWB6UQa7FwWBiFYYJHZTRHZxqESlkDpoQVmS35jd
-NTfDPO/veR7mfR8XrrblZ42XZp4sDk3fyBob/tRs28emrrYCSVfiwN0KQnj5FVS1
-BmxEDFUzgRvIEmQZGUkKJYm0ixZYjBWWURDkOVGkWCxiJGLWxQAHaNSjloPESCiK
-napONPIRUBWi/oFv/jUQGYxomqODCNGSwooCB0UByhSDaIqlKAuMYkNDYUzouC6H
-QNIBiBJTZaK0LteuTMMq6SMEjjtlPUycEUM3dVk/TGaNphlxW1YzHrHYo1gKrKQE
-JFVTyF8TQwwbUVXXgJsmpGyqVizNiJzIuThGcADcElENHFAtghN4SJHHqsExEimJ
-iKEx5jEvBUXISwzmBZkKUjKNaFdQhhyEZHsUpFwKJxMrT7bKIyy7aFoI8oJE+qP4
-iKYDN2kyUQOJjKoNGjKbDQySD4frs21Z+bY1Oausu9ny84p/XzM2k2s77+wJT8be
-zBbe6v8/lV67/2Jny89Xt+Pj87X/MGPt3t6/emtA0YPgwdCd7d2pvrmns+lt7Z7n
-9kTlrhrfQHt5199wVPdrO6v6nFqN5/Uhn+YtunR/49BAR+XH0IW73//1V3el5aSU
-CLw8V991b7QbwpLx9br/9Ltr/wlq8uSPQaVpcG+H4cvMean+y05faMaZk6oPFBzb
-vaNs3fXMo97Cvg1Dudnz3m8TbcdHFicqHPH5zXWlvrOZgmeOqerpz3Vhz6Z4wg0d
-eV9Brd0/kK4IbZ3cUrWHugmLOkuq35YsOMpPXPF0ljWNJN7b7AfsLyY/LCw2nfoy
-pfScaSteAm6+EhQ=
-=zOMN
+yMHrAnicbZFfSBRrGMZ3tdxcEqQSOoYoc3XCbZu/O/MtoQcOihwOBR4rC3P7Zubb
+ddCdWWf/2LpnKzqKhHhhZGIiJyyIjSwikfXGf2iyaQqJSGYllqYQtBFdaCh+Y3bX
+3LzM8/6e55nhHc1INVnNLw49Gd8cWPnfPDGUDJr+4boKIoSoyWHCGSGq0c5wK6oH
+6T5dUQOEk5BEgWUkKMqkCCia4lmEZJaRoeDgACBZBBAEiKUZwkZUaX7DgWNE6Ed2
+RcMafnEpMlZ/wQd/LACDIEVxlBtCSpRZwHMC4AWJZCBFsiRpgH6kq9CLMB3WpGoi
+aiOwElIkrER2ane3XgX3YQKF7ZLmxU6frgU0SavBu6pAwOd3Gt5A2GfAdUh07ca4
+REWV8W9jRwjpfkVTCSeFSSmgGLkUAxwkTXOAtBHokk/RkUsxCI53CCR+jB4UwpGi
+WwY8LZMcB6Dkhg4asohlKI7FQ6R4jnTTAsNAjhEgFABkoARoXuDdAiI5mpEp3O9H
+tapGOAH+TOjBkX7Fo8JAUEdEdGSoYo/JbDWl7U0xDmeypmf+PGev1bKRcn950tJ5
+uaN1Mfa3JZJsFq7/V36KTa4PDtbXzGR3Ro6NganenOq2/W9KZhPFj/VP7Tn5jamx
+9PKx0uRra+33ViWxsu9ufC7/3OLsw5lpT9PTCwU92eeP9q8uVQ51dQy0pkyPtufa
++7zi1b9OrE9SRTdsf77zrRXlLRwu/m3r/dflz0empivP8s8ublzrL3zwqjDSY2rJ
+DS7d+jbPf7SvPN/UykjiTk2ii7wyN9w3mFmX9TIjFM+KZv/h8g4vHSioert172DG
+vzdRd+zRWMVGSeGZL4mGptj48Id6y4K7jYuPlN4+fbyuO09JK5tv/D2qmsW1eMtq
+ZUXzBJnnPNmwDYU5Go4=
+=AgFM
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
