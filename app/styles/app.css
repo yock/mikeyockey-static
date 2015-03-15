@@ -1,0 +1,14 @@
+body {
+  background: #f8f8f8;
+}
+
+header {
+  background: #393939;
+  height: 136px;
+}
+
+img.logo {
+  max-width: 137px;
+  margin-top: 10px;
+}
+
