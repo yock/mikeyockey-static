@@ -15,6 +15,13 @@ module.exports = function(grunt) {
         }        
       }
     },
+    copy: {
+      main: {
+        files: [
+          { expand: true, src: ['css/*', 'fonts/*', 'img/*', 'js/*', '*.txt', '*.html'], dest: 'dist/' },
+        ]
+      }
+    },
 
     watch: {
       grunt: { files: ['Gruntfile.js'] },
@@ -42,14 +49,18 @@ module.exports = function(grunt) {
           base: '.'
         }
       }
-    }
+    },
+
+    clean: ['dist']
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('build', ['sass']);
+  grunt.registerTask('build', ['clean', 'sass', 'copy']);
   grunt.registerTask('default', ['build','watch']);
   grunt.registerTask('server', ['build', 'connect', 'watch']);
 }
