@@ -1,6 +1,5 @@
 require 'mina/bundler'
 require 'mina/git'
-require 'mina/rvm'
 
 # Basic settings:
 #   domain       - The hostname to SSH to.
@@ -8,18 +7,12 @@ require 'mina/rvm'
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :domain, '107.170.74.111'
-set :deploy_to, '/usr/share/nginx/sites/mikeyockey.com'
+set :domain, '45.55.169.74'
+set :deploy_to, '/var/www/vhosts/mikeyockey.com'
 set :repository, 'git@github.com:yock/mikeyockey.git'
 set :branch, 'master'
 set :user, 'myockey'
-set :ssh_options, '-A'
-
-# This task is the environment that is loaded for most commands, such as
-# `mina deploy` or `mina rake`.
-task :environment do
-  invoke :'rvm:use[ruby-2.1.0@default]'
-end
+set :ssh_options, '-A -t'
 
 # Put any custom mkdir's in here for when `mina setup` is ran.
 # For Rails apps, we'll make some of the shared paths that are shared between
@@ -47,7 +40,6 @@ task :deploy => :environment do
     invoke :compile
 
     to :launch do
-      queue "sudo /home/myockey/util/restart-nginx.sh"
     end
   end
 end
