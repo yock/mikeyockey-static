@@ -13,6 +13,7 @@ set :repository, 'git@github.com:yock/mikeyockey.git'
 set :branch, 'master'
 set :user, 'myockey'
 set :ssh_options, '-A -t'
+set :shared_paths, %w(twtxt.txt)
 
 # Put any custom mkdir's in here for when `mina setup` is ran.
 # For Rails apps, we'll make some of the shared paths that are shared between
@@ -38,6 +39,7 @@ task :deploy => :environment do
     invoke :'git:clone'
     invoke :deps
     invoke :compile
+    invoke :'deploy:link_shared_paths'
 
     to :launch do
     end
